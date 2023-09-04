@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+	overflow: hidden;
+}
+.header-section{
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0px;
+	top: 0px;
+}
+.header-section img{
+	position: relative;
+	z-index: -1;
+}
+.header-container{
+	width: 1270px;
+	margin: 0 auto;
+}
+.nibbar{
+	position: absolute;
+	top: 20px;
+	color: red;
+}
+.logo{
+	float: left;
+	width: 200px;
+	margin-left: 127px;
+
+}
+.logo img{
+	width: 130px;
+	z-index: 1;
+
+}
+.btn{
+	float: left;
+	width: 200px;
+	margin-left: 1052px;
+	margin-top: -60px;
+}
+.btn button{
+	padding: 8px 15px;
+	color: #fff;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.title{
+	position: absolute;
+	top: 225px;
+	left: 160px;
+	color: #fff;
+}
+.title h1{
+	font-size: 55px;
+	text-align: center;
+}
+.title p{
+	text-align: center;
+	font-size: 37px;
+	margin-top: 15px;
+}
+.email{
+	position: absolute;
+	bottom: 228px;
+	left: 318px;
+	color: #fff;
+	text-align: center;
+}
+.email p{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+}
+.email input{
+	padding: 15px 150px 15px 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff ;
+	border: 0.5px solid #4c442e;
+	border-radius: 3px;
+	font-size: 18px;
+}
+.email button{
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 15px;
+	color: #fff;
+	font-size: 20px;
+	font-family: sans-serif;
+}
